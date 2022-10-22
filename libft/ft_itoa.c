@@ -6,7 +6,7 @@
 /*   By: obouhrir <obouhrir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 16:51:14 by obouhrir          #+#    #+#             */
-/*   Updated: 2022/10/20 16:06:37 by obouhrir         ###   ########.fr       */
+/*   Updated: 2022/10/21 16:35:13 by obouhrir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,3 +62,8 @@ char	*ft_itoa(int n)
 	result(s, n, len);
 	return (s);
 }
+
+// int main()
+// {
+// 	printf("%s", ft_itoa(0059));
+// }

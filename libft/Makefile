@@ -18,7 +18,8 @@ RM		= rm -f
 			${CC} ${CFLAGS} -c $< -o $@
 
 ${NAME}:	${OBJS}
-			ar rcs ${NAME} ${OBJS}
+			ar -rc ${NAME} ${OBJS}
+			ranlib ${NAME}
 
 all:		${NAME}
 
